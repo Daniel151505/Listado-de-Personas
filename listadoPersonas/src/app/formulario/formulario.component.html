@@ -1,1 +1,5 @@
-<p>formulario works!</p>
+<form class="item">
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre" [(ngModel)]="nombreInput"/>
+    <input type="text" name="apellido" id="apellido" placeholder="Apellido" [(ngModel)]="apellidoInput"/>
+    <button type="submit" (click)="agregarPersona()"> + </button>
+</form>
